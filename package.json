@@ -1,0 +1,54 @@
+{
+  "name": "node-milight-promise-rn",
+  "version": "0.0.1",
+  "description": "React Native version of node-milight-promise",
+  "author": {
+    "name": "Damnjan Lukovic",
+    "url": "https://github.com/damnjan/node-milight-promise-rn"
+  },
+  "license": "MIT",
+  "main": "src/index",
+  "files": [
+    "examples",
+    "src",
+    "LICENSE",
+    "HISTORY.md",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "./node_modules/.bin/gulp"
+  },
+  "homepage": "https://github.com/mwittig/node-milight-promise",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/damnjan/node-milight-promise-rn"
+  },
+  "bugs": {
+    "url": "https://github.com/damnjan/node-milight-promise-rn/issues"
+  },
+  "keywords": [
+    "SmartHome",
+    "Milight",
+    "WifiLight",
+    "LED"
+  ],
+  "dependencies": {
+    "bluebird": "^3.5.3",
+    "promise-retryer": "0.0.1",
+    "react-native-udp": "^2.5.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "mwittig-gulp-coveralls": "^0.2.1",
+    "gulp-istanbul": "^1.1.2",
+    "gulp-jasmine": "^4.0.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-print": "^3.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^1.0.0",
+    "lodash.flattendeep": "^4.4.0"
+  },
+  "browser": {
+    "dgram": "react-native-udp"
+  }
+}
